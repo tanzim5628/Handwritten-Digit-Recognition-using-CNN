@@ -1,16 +1,64 @@
-🔢 Handwritten Digit Recognition using CNN
+# 🔢 Handwritten Digit Recognition using CNN
 
-This project implements a Convolutional Neural Network (CNN) to accurately classify handwritten digits (0–9) using the MNIST Dataset. The model is trained on grayscale images (28×28 pixels) and achieves 98%+ accuracy on test data.
+## 📌 Overview
 
-The project covers the complete deep learning pipeline, including data preprocessing, model building, training, and evaluation. TensorFlow/Keras is used to design the CNN architecture, enabling efficient feature extraction and classification.
+This project builds a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) using the MNIST dataset.
 
-🚀 Key Features
-Image preprocessing and normalization
-CNN-based deep learning model
-High accuracy (98%+)
-Prediction visualization
-🛠️ Technologies Used
-Python
-TensorFlow / Keras
-NumPy
-Matplotlib
+## 📊 Dataset
+
+* MNIST Dataset (70,000 images)
+* Image size: 28x28 (grayscale)
+
+## 🧠 Model Architecture
+
+* Conv2D + MaxPooling
+* Conv2D + MaxPooling
+* Flatten
+* Dense Layers
+* Softmax Output (10 classes)
+
+## ⚙️ Technologies Used
+
+* Python
+* TensorFlow / Keras
+* NumPy
+* Matplotlib
+
+## 📈 Results
+
+* Achieved **98%+ accuracy** on test data
+
+## 🔍 Features
+
+* Image preprocessing
+* CNN model training
+* Model evaluation
+* Prediction visualization
+
+## 🚀 Future Improvements
+
+* Add real-time digit drawing (Streamlit)
+* Improve model with data augmentation
+* Deploy as a web app
+
+## 📸 Sample Output
+
+(Add screenshots here)
+
+## 📂 How to Run
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## 👨‍💻 Author
+
+Your Name
